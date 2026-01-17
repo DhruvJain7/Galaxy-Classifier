@@ -1,3 +1,13 @@
+---
+title: Galaxy Classifier
+emoji: 🌌
+colorFrom: blue
+colorTo: black
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: false
+---
 # 🌌 Galaxy Morphology Classifier
 
 An interactive web application that uses Deep Learning to classify galaxies into 10 morphological categories based on the **Galaxy10 DECaLS** dataset.

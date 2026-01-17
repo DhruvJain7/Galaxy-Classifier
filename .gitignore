@@ -1,4 +1,10 @@
 __pycache__/
 *.log
 .DS_Store
-
+# Virtual Environments
+venv/
+.venv/
+env/
+bin/
+lib/
+include/
