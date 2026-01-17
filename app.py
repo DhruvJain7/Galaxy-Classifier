@@ -1,5 +1,4 @@
-# --- 1. INSTALL GRADIO ---
-!pip install -q gradio 2>/dev/null
+
 
 import os
 # Hide TensorFlow logs
@@ -20,7 +19,7 @@ warnings.filterwarnings("ignore", category=UserWarning, message=".*Skipping vari
 # (File copying code is removed, as it's no longer needed)
 
 # --- 3. CONFIGURATION ---
-MODEL_PATH = '/kaggle/input/best-galaxy-classifier/best_galaxy_classifier.keras'
+MODEL_PATH = 'MODEL_PATH = 'best_galaxy_classifier.keras'
 CLASS_NAMES = [
     "Disturbed", "Merging", "Round Smooth", "In-between Round Smooth", 
     "Cigar Shaped Smooth", "Barred Spiral", "Unbarred Tight Spiral", 
